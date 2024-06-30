@@ -1,0 +1,37 @@
+.main-ttl {
+    font-size: 33px;
+    margin-top: 40px;
+}
+
+.register-form__content {
+    margin-top: 70px;
+}
+
+.btn-container {
+    margin: 90px 0 20px 0;
+}
+
+
+.form-ttl {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-content input {
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.btn-container input {
+    background-color: #fd6553;
+    width: 680px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

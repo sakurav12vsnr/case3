@@ -1,0 +1,26 @@
+@extends('layouts.app')
+
+@section('main')
+<div class="main">
+    <div class="tab-name">
+        <ul class="tab-group">
+            <li class="tab tab1 is-active">おすすめ</li>
+            <li class="tab tab2">マイリスト</li>
+        </ul>
+    </div>
+    <div class="panel-area">
+        <div class="panel tab1 is-show">
+            @foreach($items as $item)
+            <div class="item-card">
+                <img class="item-card__img" src="{{!! $item->img_url !!}}" alt="商品画像" />
+                <div class="item-card__content">
+                    <h2 class="item-card__content__ttl">{{$item->name</h2>
+                </div>
+            </div>
+        </div>
+        <div class="panel tab2">
+            Panel2
+        </div>
+    </div>
+</div>
+@endsection

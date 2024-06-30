@@ -1,0 +1,15 @@
+@extends('layouts.app')
+
+@section('main')
+<div class="main">
+    <div class="user-inf__item__img">
+        <img class="user-image" src="images/UserImage.png" alt="ユーザー画像" />
+        @if( Auth::check() )
+        <p class="welcome">
+            {{ Auth::profile()->name }}
+        </p>
+        @endif
+        <input type="button" onclick="history.back()" value="">
+    </div>
+    <div></div>
+</div>

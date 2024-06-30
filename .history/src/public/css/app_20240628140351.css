@@ -1,0 +1,626 @@
+/* 認証 */
+.register-header,
+.login-header {
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.main-ttl {
+    font-size: 33px;
+    margin-top: 40px;
+}
+
+.register-form,
+.login-form {
+    width: 680px;
+    margin: 0 auto;
+}
+
+.register-form__content,
+.login-form__content {
+    margin-top: 70px;
+}
+
+.btn-container {
+    margin: 90px 0 30px 0;
+}
+
+.form-ttl,
+.inf-ttl {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form__content input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.btn-container input {
+    background-color: #fd6553;
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 検索 */
+.search {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.search__keyword {
+    width: 600px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+/* ナビゲーションバー */
+.header-nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__item {
+    color: #ffffff;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.header-nav__btn input {
+    margin-right: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    padding: 5px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* トップページ */
+.tab-group {
+    display: flex;
+    border-bottom: solid 3px #808080;
+}
+
+.tab {
+    flex-grow: 1;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: #808080;
+}
+
+.index-card,
+.favorite-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.panel {
+    display: none;
+}
+
+.tab.is-active {
+    color: #ff0000;
+    transition: all 0.2s ease-out;
+}
+
+.panel.is-show {
+    display: block;
+}
+
+.item-card {
+    width: 200px;
+    margin: 40px 10px;
+
+}
+
+/* マイページ */
+.mypage__item__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mypage__item__img input {
+    margin-left: 200px;
+    color: #fd6553;
+    font-weight: bold;
+    border-color: #fd6553;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.mypage__tab-group {
+    display: flex;
+    border-bottom: solid 3px #808080;
+    margin-top: 80px;
+}
+
+.mypage__panel-area {
+    height: 80%;
+}
+
+.mypage-panel {
+    display: none;
+}
+
+.mypage__recommendation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 30px;
+    text-align: center;
+}
+
+/* プロフィール */
+.profile {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.profile__item__img {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile__ed-btn {
+    color: #fd6553;
+    font-weight: bold;
+    border-color: #fd6553;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+
+.profile-img__btn {
+    margin-left: 50px;
+}
+
+.profile__item {
+    margin-top: 30px;
+}
+
+.inf-ttl {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.profile-btn__container {
+    margin: 30px 0 50px 0;
+}
+
+.inf-content input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.profile-btn__container input {
+    background-color: #fd6553;
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* 出品ページ */
+.sell-item {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.sell-item__img {
+    border: 1px dotted #000000;
+    height: 100px;
+    position: relative;
+}
+
+.ed-btn {
+    color: #fd6553;
+    font-weight: bold;
+    border-color: #fd6553;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sell-item__detail {
+    margin-top: 30px;
+}
+
+.sell-item__detail__ttl {
+    text-align:left;
+    font-size: 20px;
+    color: #808080;
+    border-bottom: solid 3px #808080;
+    margin-bottom: 30px;
+}
+
+.item-inf__ttl,
+.sell-item__detail__subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.sell-btn__container {
+    margin: 30px 0 50px 0;
+}
+
+.sell-item__detail__content input,
+.sell-item__detail select {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.sell-item__price input {
+    border: none;
+    height: 45px;
+}
+
+.sell-item__detail__content-price {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.sell-item__price span {
+    margin: 0 10px;
+}
+
+.sell-btn__container input {
+    background-color: #fd6553;
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 商品詳細 */
+.detail {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 70%;
+}
+
+.item-ttl {
+    font-size: 30px;
+}
+
+.item-detail {
+    text-align: left;
+    width: 350px;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.evaluation {
+    display: flex;
+
+    margin: 15px auto;
+}
+
+.comment-icon {
+    margin-left: 50px;
+}
+
+.purchase-btn__container input{
+    background-color: #fd6553;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item-detail__content {
+    margin: 20px auto;
+}
+
+.item-subtitle {
+    font-size: 20px;
+}
+
+.item-explanation {
+    margin: 10px auto;
+}
+
+.item-detail__text,
+.category__content {
+    display: flex;
+}
+
+.item-detail__ttl {
+    margin-right: 50px;
+}
+
+.item-detail__category {
+    margin-right: 20px;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.item-detail__condition {
+    padding: 3px 10px;
+}
+.item-detail__text {
+    margin-top: 20px;
+}
+
+/* 購入ページ */
+.purchase {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 60%;
+
+}
+
+.purchase-item {
+    width: 55%;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.purchase-item__ttl {
+    font-size: 25px;
+}
+
+.purchase-item__price{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.purchase-item__inf {
+    margin-left: 100px;
+}
+
+.purchase-item__content {
+    display: flex;
+}
+
+.purchase-item__detail {
+    margin-top: 30px;
+}
+
+.purchase-item__detail__payment,
+.purchase-item__detail__address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.purchase-item__detail-change {
+    margin-right: 120px;
+    color: #6495ED;
+    font-weight: bold;
+}
+
+.confirmation {
+    width: 30%;
+    margin-right: 100px;
+}
+
+.confirmation-detail {
+    border: solid 1px #000000;
+}
+
+.purchase-container__item-price,
+.purchase-container__payment-amount,
+.purchase-container__payment-methods {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.purchase-container__item-price {
+    margin: 70px 20px 50px 30px;
+}
+
+.purchase-container__payment-amount,
+.purchase-container__payment-methods {
+    margin-left: 30px;
+}
+
+.purchase-container__payment-amount,
+.purchase-container__payment-methods {
+    margin-bottom: 40px;
+}
+
+.confirmation__purchase-btn__container input {
+    margin-top: 70px;
+    background-color: #fd6553;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#item-price,
+#payment-amount,
+#payment-methods {
+    margin-left: 100px;
+}
+
+/* 住所 */
+.address {
+    width: 650px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.address-form__content {
+    margin-top: 60px;
+}
+
+.address__ttl {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.address-btn__container {
+    margin: 30px 0 50px 0;
+}
+
+.address__content input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.address-btn__container input {
+    background-color: #fd6553;
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+/* コメントページ */
+.comment {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.add-comment__ttl {
+    margin: 100px 0 10px 0;
+}
+
+#new-comment{
+    width: 100%;
+    border: solid 1px #000000;
+}
+
+.comment-card{
+    margin-top: 30px;
+}
+
+.comment-card__user-inf{
+    display: flex;
+}
+
+.comment-card__user-name{
+    margin-left: 10px;
+}
+
+.comment-card__text{
+    margin-top: 5px;
+}
+
+.comment-btn__container input {
+    background-color: #fd6553;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}

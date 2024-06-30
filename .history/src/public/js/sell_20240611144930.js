@@ -1,0 +1,3 @@
+$('#imageUploadButton').click(function) {
+    $('#imageUpload')
+}

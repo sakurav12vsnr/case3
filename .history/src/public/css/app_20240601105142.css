@@ -1,0 +1,53 @@
+/* 認証 */
+.main-ttl {
+    font-size: 33px;
+    margin-top: 40px;
+}
+
+.register-form,
+.login-form {
+    width: 680px;
+    margin: 0 auto;
+}
+.register-form__content,
+.login-form__content {
+    margin-top: 70px;
+}
+
+.btn-container {
+    margin: 90px 0 30px 0;
+}
+
+.form-ttl {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.form__content input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.btn-container input {
+    background-color: #fd6553;
+    height: 50px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 検索 */
+.search__keyword {
+    width: 600px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+}

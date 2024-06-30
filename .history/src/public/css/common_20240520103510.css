@@ -1,0 +1,16 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.header {
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
